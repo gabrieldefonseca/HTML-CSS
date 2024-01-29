@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #F05318;
+    --cor2: #F09C18;
+    --cor3: #F07918;
+    --cor4: #F02E18;
+    --cor5: #F0BA29;
+
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: 2em;
+}
+
+body {
+    background-color: var(--cor3);
+
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom var(--cor1), var(--cor3));
+    text-align: center;
+    padding: 20px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.218);
+    font-size: 1.2em;
+
+}
+
+nav {
+    background-color: var(--cor1);
+    padding: 5px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.218);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main img {
+    
+}
